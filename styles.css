@@ -6,3 +6,18 @@
   background-color: transparent;
   color: #f39530;
 }
+
+/* legacy page coming soon styling */
+.coming-soon {
+  text-align: center;
+  margin-top: 20vh;
+  font-size: 3rem;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
